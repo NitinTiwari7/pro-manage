@@ -21,7 +21,6 @@ const Board = () => {
   useEffect(()=>{
     fetchTask();
   },[task,selectedOption])
-  console.log(task);
  const handleFilter =(selectedValue)=>{
   setSelectedOption(selectedValue);
   setShowDropDown(false);
